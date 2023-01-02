@@ -1,0 +1,267 @@
+ <style> :root {
+     box-sizing: border-box;
+     --main-bg-color: #f91e4e
+ }
+
+ *,
+ ::before,
+ ::after {
+     box-sizing: inherit;
+ }
+
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+
+
+ }
+
+ body {
+     background-color: hsl(222, 67%, 10%);
+     color: fff;
+     font-family: poppins;
+ }
+
+ .navbar {
+     display: flex;
+     align-items: center;
+     margin-bottom: 15px;
+
+ }
+
+ .bingsport {
+     flex: 1;
+ }
+
+ ul {
+     display: flex;
+     margin: 0;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ ul>li {
+     list-style-type: none;
+     text-transform: uppercase;
+
+ }
+
+ ul>li>a {
+     text-decoration: none;
+     color: fff;
+     padding: 0 1.25em;
+ }
+
+ .vip {
+     color: #ffd533;
+     font-weight: 550;
+     font-size: 20px;
+     padding: 0 5px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ .vip-icon {
+     width: 15px;
+     height: 15px;
+ }
+
+ .vip-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 20px;
+ }
+
+ .bing-ad-image {
+     width: 100%;
+ }
+
+ .sports-logo-container {
+     display: flex;
+     margin-top: 20px;
+     flex: 1;
+ }
+
+ .sports-logo {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .sports-logo>img {
+     width: 26px;
+
+ }
+
+ .sports-logo>span>a {
+     text-decoration: none;
+     color: #ffff;
+     padding: 0 30px 0 10px;
+ }
+
+ .live-button {
+     text-transform: uppercase;
+     color: #2ebb2e;
+     font-weight: 550;
+     font-size: 19px;
+     border: solid 2px;
+     padding: 0 0 0 35px;
+     border-radius: 10px;
+     margin-right: 15px;
+     width: 95px;
+ }
+
+ .searchform-container {
+     display: flex;
+     align-items: center;
+     margin-left: auto;
+ }
+
+ .search-area {
+     background-color: #334155;
+     border: none;
+     padding: 0px 10px;
+     border-radius: 8px;
+     height: 34px;
+ }
+
+ .search-button {
+     height: 34px;
+     padding: 0 15px;
+     border: none;
+     border-radius: 8px;
+     color: #fff;
+     margin-left: 5px;
+     background-color: var(--main-bg-color);
+
+ }
+
+ main>div>h3 {
+     margin: 0;
+     margin: 30px 0 5px 0;
+     font-size: 28px;
+
+ }
+
+ main>span {
+     font-size: 14px;
+     display: block;
+     margin-bottom: 20px;
+ }
+
+ .display-container {
+     display: flex;
+     height: 60vh;
+ }
+
+ .display-container>img {
+     width: 75%;
+ }
+
+ .sports-chanel {
+     overflow: auto;
+ }
+
+ .bing {
+     border: solid grey .5px;
+     border-radius: 5px;
+     padding: 5px 10px;
+     margin-bottom: 5px;
+     width: 300px;
+ }
+
+ .sp {
+     color: gray;
+     font-size: 14px;
+ }
+
+ .sp1 {
+     font-size: 14px;
+ }
+
+ .share-content {
+     margin-top: 14px;
+     display: flex;
+     margin-bottom: 10px;
+ }
+
+ .share-content>div>img {
+     width: 24px;
+     height: 24px;
+ }
+
+ .server-button>button {
+     background-color: var(--main-bg-color);
+     border: none;
+     border-radius: 8px;
+     padding: 8px 10px;
+     color: #fff;
+     font-family: poppins;
+     font-size: 0.875em;
+ }
+
+ .server-button {
+     flex: 0.74;
+ }
+
+ footer {
+     border-top: solid 1px var(--main-bg-color);
+     margin-top: 10px;
+
+ }
+
+ .clubclass {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .club {
+     height: 80px;
+     width: 80px;
+     background-color: #fff;
+     border-radius: 33px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 25px 8px;
+ }
+
+ .bingsport-logo {
+     text-align: center;
+ }
+
+ .writeup {
+     display: block;
+     text-align: center;
+ }
+
+ .footer-info>p {
+     text-align: center;
+ }
+
+ .footer-info>p {
+     font-size: 0.857em;
+
+ }
+
+ .clubs-footer {
+     text-align: center;
+ }
+
+ .clubs-footer>span {
+     font-size: 14px;
+     padding: 0 5px;
+     margin: 0 10px 0 0;
+     text-align: center;
+ }
+
+ .protected {
+     text-align: center;
+ }
+
+
+
+ </style>
