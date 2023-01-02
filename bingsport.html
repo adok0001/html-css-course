@@ -1,0 +1,576 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Bingsport.com</title>
+    <style>
+        :root {
+            box-sizing: border-box;
+            --main-bg-color: #f91e4e
+        }
+        *,
+        ::before,
+        ::after {
+            box-sizing: inherit;
+        }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            
+           
+        }
+        body{
+            background-color: hsl(222, 67%, 10%);
+            color: fff;
+            font-family: poppins;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            
+        }
+        .bingsport{
+            flex: 1;
+        }
+       
+        ul{
+            display: flex;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+           
+        }
+
+        ul > li {
+            list-style-type: none;
+            text-transform: uppercase;
+            
+        }
+        ul > li > a {
+            text-decoration: none;
+            color: fff;
+            padding: 0 1.25em;   
+        }
+        .vip{
+            color: #ffd533;
+            font-weight: 550;
+            font-size: 20px; 
+            padding: 0 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .vip-icon{
+            width: 15px;
+            height: 15px;
+        }
+        .vip-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .bing-ad-image{
+            width: 100%;
+        }
+
+        .sports-logo-container{
+            display: flex;   
+            margin-top: 20px;
+            flex: 1;
+        }
+        .sports-logo{
+            display: flex;
+            align-items: center;    
+            
+        }
+
+        .sports-logo > img{
+            width: 26px;
+            
+        }
+        .sports-logo > span > a{
+            text-decoration: none;
+            color: #ffff;
+            padding: 0 30px 0 10px;
+        }
+        .live-button{
+            text-transform: uppercase;
+            color: #2ebb2e;
+            font-weight: 550;
+            font-size: 19px;
+            border: solid 2px;
+            padding: 0 0 0 35px;
+            border-radius: 10px;
+            margin-right: 15px;
+            width: 95px;
+        }
+        .searchform-container{
+           display: flex;
+           align-items: center;
+           margin-left: auto;
+        }
+
+       .search-area{
+        background-color: #334155;
+        border: none;
+        padding: 0px 10px;
+        border-radius: 8px;
+        height: 34px;
+       }
+       .search-button{
+        height: 34px;
+        padding: 0 15px;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        margin-left: 5px;
+        background-color: var(--main-bg-color);
+
+       }
+       main > div > h3{
+        margin: 0;
+        margin: 30px 0 5px 0;
+        font-size: 28px;
+        
+       }
+       main > span {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+       }
+
+       .display-container{
+        display: flex;
+        height: 60vh;
+       }
+
+       .display-container > img{
+        width: 75%;
+       }
+
+       .sports-chanel{
+        overflow: auto;
+       }
+
+       .bing{
+        border: solid grey .5px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        width: 300px;
+       }
+       .sp{
+        color: gray;
+        font-size: 14px;
+       }
+       .sp1{
+        font-size: 14px;
+       }
+
+       .share-content{
+        margin-top: 14px;
+        display: flex;
+        margin-bottom: 10px;
+       }
+
+       .share-content > div > img {
+        width: 24px;
+        height: 24px;
+       }
+       .server-button > button {
+        background-color: var(--main-bg-color);
+        border: none;
+        border-radius: 8px;
+        padding: 8px 10px;
+        color: #fff;
+        font-family: poppins;
+        font-size: 0.875em;
+       }
+
+       .server-button{
+        flex: 0.74;
+       }
+
+       footer{
+        border-top: solid 1px var(--main-bg-color);
+        margin-top: 10px;
+        
+       }
+       .clubclass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .club{
+        height: 80px;
+        width: 80px;
+        background-color: #fff;
+        border-radius: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 8px;
+       }
+       .bingsport-logo{
+        text-align: center;
+       }
+
+       .writeup{
+        display: block;
+        text-align: center;
+       }
+
+       .footer-info > p {
+        text-align: center;
+       }
+       .footer-info > p {
+        font-size: 0.857em;
+        
+       }
+       .clubs-footer{
+        text-align: center;
+       }
+       .clubs-footer > span{
+        font-size: 14px;
+        padding: 0 5px;
+        margin: 0 10px 0 0;
+        text-align: center;
+       }
+       .protected{
+       text-align: center;
+       }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar">
+            
+            
+            <div class="bingsport">
+                <img class="bingsport-logo" src="/svg leftside/bingsport.svg" alt="">
+            </div>
+
+
+            <ul>
+                <li><a href="/">Sports</a></li>
+                <li><a href="/">Bing tv</a></li>
+                <li><a href="/"> pricing</a></li>
+                <li><a href="/">highlight</a></li>
+                <li><a href="/">news</a></li>
+            </ul>
+
+           
+            <div class="vip-container">
+
+                <img class="vip-icon" src="/svg leftside/vip_icon.png" alt="">
+                
+                <span><a class="vip" href="/">vip</a></span>
+                
+                <img src="/svg leftside/avatar.svg" alt="">
+            </div>
+
+    
+        </nav>
+
+       
+        <div class="ad-container">
+            <img class="bing-ad-image" src="/svg leftside/bingimage.png" alt="">
+        </div>
+
+
+
+
+
+        <div class="sports-logo-container">
+
+            <div class="sports-logo">
+                <span class="live-button">live</span>
+            </div>
+
+            <div class="sports-logo">
+                <img src="/svg leftside/bingsvg/football.png" alt="">
+                <span><a href="/">football</a></span>
+            </div>
+            
+            <div class="sports-logo">
+                <img src="/svg leftside/bingsvg/tennis.png" alt="">
+                <span><a href="/">Tennis</a></span>
+            </div>
+           
+            <div class="sports-logo">
+                <img src="/svg leftside/bingsvg/basketball.png" alt="">
+                <span><a href="/">Basketball</a></span>
+            </div>
+            
+            <div class="sports-logo">
+                <img src="/svg leftside/bingsvg/cricket.png" alt="">
+                <span><a href="/">Others</a></span>
+            </div>
+           
+            <div class="sports-logo">
+                <img src="/svg leftside/bingsvg/schedule.svg" alt="">
+                <span><a href="/">Fixtures</a></span>
+            </div>
+
+
+            <div class="searchform-container">
+
+                <input class="search-area" type="text" placeholder="keywords...">
+               
+                <button class="search-button">
+                    Search
+                </button>
+            </div>
+
+
+        </div>
+
+
+        <main>
+            <div><h3>BING TV</h3></div>
+            <span>live stream and score</span>
+            
+            
+
+
+            <div class="display-container">
+
+                <img src="/svg leftside/Screen Shot 2022-11-28 at 6.22.35 PM.png" alt="">
+
+
+                <div class="sports-chanel">
+                    <div class="bing ch1">
+                        <div class="sp1">Premier sports 1 uk</div>
+                        <div class="sp">premier sports 1 uk</div>
+                    </div>
+                    
+                    <div class="bing ch2">
+                        <div class="sp1">Premier sports 2 uk</div>
+                        <div class="sp">premier sports 2 uk</div>
+                    </div>
+                    
+                    
+                    <div class="bing ch3">
+                        <div class="sp1">Sky Sports cricket uk</div>
+                        <div class="sp">sky sports cricket uk</div>
+                    </div>
+                    
+                    <div class="bing ch4">
+                        <div class="sp1">Nat Geo UK</div>
+                        <div class="sp">Nat Geo UK</div>
+                    </div>
+                    
+                    <div class="bing ch5">
+                        <div class="sp1">Cartoon Network</div>
+                        <div class="sp">Cartoon Network</div>
+                    </div>
+                    
+                    <div class="bing ch6">
+                        <div class="sp1">film 4 UK</div>
+                        <div class="sp">Film 4 UK</div>
+                    </div>
+                    
+                    <div class="bing ch7">
+                        <div class="sp1"> Crime & investigation UK</div>
+                        <div class="sp">Crime & investigation UK</div>
+                    </div>
+                    
+                    <div class="bing ch8">
+                        <div class="sp1">CBS Drama UK</div>
+                        <div class="sp">CBS Drama UK</div>
+                    </div>
+                    
+                    <div class="bing ch9">
+                        <div class="sp1">Sky sports golf UK</div>
+                        <div class="sp">Sky sports golf UK</div>
+                    </div>
+                    
+                    <div class="bing ch10">
+                        <div class="sp1">Fox sports 1 US</div>
+                        <div class="sp">Fox sports 1 US</div>
+                    </div>
+                    
+                    <div class="bing ch11">
+                        <div class="sp1">ESPN US</div>
+                        <div class="sp">ESPN US</div>
+                    </div>
+                    
+                    <div class="bing ch12">
+                        <div class="sp1">CBS sports network US</div>
+                        <div class="sp">CBS sports network US</div>
+                    </div>
+                    
+                    <div class="bing ch13">
+                        <div class="sp1">HBO US</div>
+                        <div class="sp">HBO US</div>
+                    </div>
+                    
+                    <div class="bing ch14">
+                        <div class="sp1">Show time US</div>
+                        <div class="sp">Show time US</div>
+                    </div>
+                    
+                    <div class="bing ch15">
+                        <div class="sp1">Food Network US</div>
+                        <div class="sp">Food Network US</div>
+                    </div>
+                    
+                    <div class="bing ch16">
+                        <div class="sp1">travel channel US</div>
+                        <div class="sp">travel channel US</div>
+                    </div>
+                    
+                    
+                    <div class="bing ch17">
+                        <div class="sp1">cinemax action US</div>
+                        <div class="sp">cinemax action US</div>
+                    </div>
+                    
+                    <div class="bing ch18">
+                        <div class="sp1">BBC News UK</div>
+                        <div class="sp">BBC News UK</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            
+
+            <div class="share-content">
+                
+                <div class="server-button">
+                    <button>server 1</button>
+                </div>
+
+                <div>
+                    <img src="/svg leftside/share fb and twitter/Share to Facebook.svg" alt="">
+                    <img src="/svg leftside/share fb and twitter/Share to Twitter.svg" alt="">
+                </div>
+               
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+    <br>
+            <footer>
+
+            
+                <div class="clubclass">
+                    <div class="club"><img src="/svg leftside/clubs/liverpool.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/mancity.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/manu.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/chelsea.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/ars.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/tottenam.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/barca.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/realM.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/psg.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/bayern.png" alt=""></div>
+                    <div class="club"><img src="/svg leftside/clubs/juve.png" alt=""></div>
+                
+                </div>
+
+                <div class="footer-info">
+                    
+                    <div class="bingsport-logo">
+                        <img src="/svg leftside/bing logo.png" alt="">
+                    </div>
+
+
+                    <p>
+                        Bingsport is one of the leading platforms on live sports services offering the greatest live coverage of over 1000
+                        sports.
+                    </p>
+                    
+                    
+                    
+                    <p>Email: bingsport.com@gmail.com.</p>
+
+                    <div class="protected">
+                        <img src="/svg leftside/dmca_protected_sml_120am.png" alt="">
+                    </div>
+
+                    
+                    
+                    
+                     <p>2020 Bingsport Inc.</p>
+                    
+                    
+                             
+                     <p>
+                       <span>About us - </span>
+                       <span>Terms of service - </span>
+                       <span>Disclaimer - </span>
+                       <span>Advertising - </span>
+                       <span>FAQs - </span>
+                       <span>Contact Us - </span>
+                       <span>Security - </span>
+                       <span>Refund policy - </span>
+                       <span>Affilate - </span>
+                       <span>live football tv</span>
+                     </p>
+
+                     <br>
+
+                    
+                     <p>Upcoming live football matches</p>
+
+                     <div class="clubs-footer">
+
+                        <span>Brentford vs Tottenham Hotspur</span>
+                        <span>Crystal palace vs Fulham</span>
+                        <span> Everton vs Wolverhampton Wanderes</span>
+                        <span>Leicester vs Newcastle United</span>
+                        <span>Southampton vs Brighton & Hove Albion</span>
+                        <span>Aston villa vs Liverpool</span>
+                        <span>Arsenal vs Westham United </span>
+                        <span>chelsea vs AFC Bournemouth</span>
+                        <span>Manchester united vs Nottingham Forest</span>
+                        <span>Leeds united vs Manchester city</span>
+                        <span>Paris Saint Germain vs Strasbourg </span>
+                        <span>Brest vs Olympique Lyonnais</span>
+                        <span>Atlético Madrid vs Elche</span>
+                        <span>West Ham united vs Brentford</span>
+                        <span>Liverpool vs Leicester City</span>
+                        <span>Real Valladolid vs Real Madrid</span>
+                        <span>Wolverhampton vs Manchester united</span>
+                        <span>FC Barcelona vs Espanyol</span>
+                        <span>AFC Bournemouth vs Crystal palace</span>
+                        <span>Fulham vs Southampton</span>
+
+
+                     </div>
+                    
+                    
+                   
+                    
+                </div>
+
+                
+
+
+
+               
+
+            </footer>
+    
+           
+    
+</body>
+</html>
